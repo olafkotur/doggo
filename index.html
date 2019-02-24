@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Doggo Generator</title>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script>
+            var url = 'https://dog.ceo/api/breeds/image/random';
+            $.getJSON(url, function(data) {
+                console.log("This is an example of a static JSON file being served by a web server.")
+                document.getElementById("doggo-url").src = data.message;
+            });
+        </script>
+    </head>
+    <body>
+        <center>
+            <img id="doggo-url" width="75%", height="75%">
+        </center>
+    </body>
+</html>
