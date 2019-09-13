@@ -1,6 +1,6 @@
-# Doggo URL
+# Doggo
 
-https://olafkotur.github.io/doggo-url
+https://olafkotur.github.io/doggo
 
 I needed this for something...
 
